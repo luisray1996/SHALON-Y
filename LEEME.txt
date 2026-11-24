@@ -1,2 +1,1 @@
-BARBER 1.3 Beauty Studio
-Abrir index.html con Live Server. Fotografías externas de Unsplash: requieren Internet; no se han podido verificar ni descargar en este entorno. Sustituir URLs en styles.css por fotografías propias antes de publicar. Datos locales, sin autenticación ni sincronización. Configurar WhatsApp en administración.
+BARBER 1.7. Copia los archivos a tu repositorio existente sin borrar .git. Abre index.html con Live Server. Reservar abre reservas.html. Datos locales de demostración; no usar datos reales. Duración provisional: 30 minutos por servicio.
