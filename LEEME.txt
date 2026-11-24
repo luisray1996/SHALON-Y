@@ -1,0 +1,2 @@
+BARBER 1.3 Beauty Studio
+Abrir index.html con Live Server. Fotografías externas de Unsplash: requieren Internet; no se han podido verificar ni descargar en este entorno. Sustituir URLs en styles.css por fotografías propias antes de publicar. Datos locales, sin autenticación ni sincronización. Configurar WhatsApp en administración.
