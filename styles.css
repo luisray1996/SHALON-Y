@@ -17,3 +17,5 @@ header nav a,header nav a[href^="reservas.html"]{display:inline-flex;align-items
 header nav a:hover,header nav a[href^="reservas.html"]:hover{background:#fff5ef;color:#171217;border-color:#fff5ef}
 header nav a:focus-visible{outline:2px solid #fff5ef;outline-offset:3px}
 @media(max-width:600px){header nav{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}header nav a,header nav a[href^="reservas.html"]{padding:10px 8px;letter-spacing:.04em}}
+
+[hidden]{display:none!important}.login-card{max-width:480px;margin:60px auto;padding:32px;border:1px solid #a75b7d;border-radius:12px}.login-card h1{font-size:clamp(36px,6vw,60px)}

@@ -1,0 +1,7 @@
+BARBER 1.9 — Configuración
+1. Crea un proyecto Supabase. En Authentication > Providers desactiva el registro público de usuarios.
+2. En Authentication > Users crea el usuario administrador con correo y contraseña. Copia su UUID.
+3. En supabase-config.js coloca URL del proyecto, clave pública anon (o publishable) y UUID del administrador. Nunca uses service_role ni una clave secreta.
+4. Abre login.html mediante Live Server o GitHub Pages.
+5. El acceso comprueba la identidad con Supabase Auth. El UUID no es secreto.
+IMPORTANTE: el panel y los datos locales siguen siendo una demostración; el HTML y JavaScript son públicos y localStorage no es una base protegida. No uses datos reales hasta migrar a Supabase con políticas RLS. No hay sincronización de reservas.
